@@ -1,0 +1,61 @@
+//
+//  Avertissements1View.swift
+//  DepositScroll
+//
+//  Created by melono on 30/03/2020.
+//  Copyright © 2020 melono. All rights reserved.
+//
+
+
+import SwiftUI
+
+struct AlertViewTwo: View {
+    var body: some View {
+        VStack {
+            HStack {
+                Text("Avertissement")
+            }
+            Divider()
+            Spacer().frame(height: 50)
+           
+            VStack {
+                Image("SCAN").resizable()
+                    .frame(width: 300, height: 175.0)
+                .cornerRadius(20.0)
+            Text("Scannez les codes barres de vos bouteilles et emballages en plastique à recycler.")
+                .multilineTextAlignment(.center)
+            }
+            
+            Spacer().frame(height: 40)
+            
+            VStack {
+                Image("MAPS").resizable()
+                .frame(width: 300, height: 175.0)
+                .cornerRadius(20.0)
+            Text("Repérez les conteneurs dédiés au plastique disponibles près de chez vous.")
+                .multilineTextAlignment(.center)
+            }
+                
+            Spacer().frame(height: 150)
+            
+            VStack {
+            Text("Cumulez des bons d'achat à dépenser chez nos commerçants partenaires !")
+                .multilineTextAlignment(.center)
+                .frame(height: -126.0)
+                .background(Color("GreenForButtons"))
+                .cornerRadius(20)
+                .padding()
+            } .padding()
+            
+            Spacer()
+            
+        }
+    }
+}
+
+struct AlertViewTwo_Previews: PreviewProvider {
+    static var previews: some View {
+        AlertViewTwo()
+    }
+}
+
