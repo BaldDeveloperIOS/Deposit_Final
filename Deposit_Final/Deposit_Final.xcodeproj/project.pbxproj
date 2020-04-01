@@ -17,6 +17,20 @@
 		112F8E7224349E0D008919EB /* AlertViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E7124349E0D008919EB /* AlertViewOne.swift */; };
 		112F8E7424349E34008919EB /* AlertViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E7324349E34008919EB /* AlertViewTwo.swift */; };
 		112F8E7624349E3E008919EB /* AlertViewThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E7524349E3E008919EB /* AlertViewThree.swift */; };
+		112F8E7824349EF2008919EB /* Annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E7724349EF2008919EB /* Annotations.swift */; };
+		112F8E7A24349F24008919EB /* ConexForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E7924349F24008919EB /* ConexForm.swift */; };
+		112F8E7C24349F4C008919EB /* ConnectedUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E7B24349F4C008919EB /* ConnectedUserAccount.swift */; };
+		112F8E7E24349FA6008919EB /* Coordinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E7D24349FA6008919EB /* Coordinators.swift */; };
+		112F8E8024349FD1008919EB /* InscriptionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E7F24349FD1008919EB /* InscriptionForm.swift */; };
+		112F8E822434A00F008919EB /* ListScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E812434A00F008919EB /* ListScan.swift */; };
+		112F8E842434A023008919EB /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E832434A023008919EB /* MapContentView.swift */; };
+		112F8E862434A038008919EB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E852434A038008919EB /* MapView.swift */; };
+		112F8E882434A051008919EB /* NonConnectedUserPopUpScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E872434A051008919EB /* NonConnectedUserPopUpScan.swift */; };
+		112F8E8A2434A065008919EB /* PartnersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E892434A065008919EB /* PartnersList.swift */; };
+		112F8E8C2434A082008919EB /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E8B2434A082008919EB /* QRCode.swift */; };
+		112F8E8E2434A099008919EB /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E8D2434A099008919EB /* ScanView.swift */; };
+		112F8E902434A0AF008919EB /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E8F2434A0AF008919EB /* TabBar.swift */; };
+		112F8E922434A0D1008919EB /* TestAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E912434A0D1008919EB /* TestAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +46,20 @@
 		112F8E7124349E0D008919EB /* AlertViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewOne.swift; sourceTree = "<group>"; };
 		112F8E7324349E34008919EB /* AlertViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewTwo.swift; sourceTree = "<group>"; };
 		112F8E7524349E3E008919EB /* AlertViewThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewThree.swift; sourceTree = "<group>"; };
+		112F8E7724349EF2008919EB /* Annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotations.swift; sourceTree = "<group>"; };
+		112F8E7924349F24008919EB /* ConexForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConexForm.swift; sourceTree = "<group>"; };
+		112F8E7B24349F4C008919EB /* ConnectedUserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedUserAccount.swift; sourceTree = "<group>"; };
+		112F8E7D24349FA6008919EB /* Coordinators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinators.swift; sourceTree = "<group>"; };
+		112F8E7F24349FD1008919EB /* InscriptionForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionForm.swift; sourceTree = "<group>"; };
+		112F8E812434A00F008919EB /* ListScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScan.swift; sourceTree = "<group>"; };
+		112F8E832434A023008919EB /* MapContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContentView.swift; sourceTree = "<group>"; };
+		112F8E852434A038008919EB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		112F8E872434A051008919EB /* NonConnectedUserPopUpScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonConnectedUserPopUpScan.swift; sourceTree = "<group>"; };
+		112F8E892434A065008919EB /* PartnersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersList.swift; sourceTree = "<group>"; };
+		112F8E8B2434A082008919EB /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		112F8E8D2434A099008919EB /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		112F8E8F2434A0AF008919EB /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		112F8E912434A0D1008919EB /* TestAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,15 +94,29 @@
 			children = (
 				112F8E6F24349DE2008919EB /* AlertContentView.swift */,
 				112F8E7124349E0D008919EB /* AlertViewOne.swift */,
-				112F8E7324349E34008919EB /* AlertViewTwo.swift */,
 				112F8E7524349E3E008919EB /* AlertViewThree.swift */,
+				112F8E7324349E34008919EB /* AlertViewTwo.swift */,
+				112F8E7724349EF2008919EB /* Annotations.swift */,
 				112F8E5B24349DB8008919EB /* AppDelegate.swift */,
-				112F8E5D24349DB8008919EB /* SceneDelegate.swift */,
-				112F8E5F24349DB8008919EB /* ContentView.swift */,
 				112F8E6124349DBB008919EB /* Assets.xcassets */,
-				112F8E6624349DBB008919EB /* LaunchScreen.storyboard */,
+				112F8E7924349F24008919EB /* ConexForm.swift */,
+				112F8E7B24349F4C008919EB /* ConnectedUserAccount.swift */,
+				112F8E5F24349DB8008919EB /* ContentView.swift */,
+				112F8E7D24349FA6008919EB /* Coordinators.swift */,
 				112F8E6924349DBB008919EB /* Info.plist */,
+				112F8E7F24349FD1008919EB /* InscriptionForm.swift */,
+				112F8E6624349DBB008919EB /* LaunchScreen.storyboard */,
+				112F8E812434A00F008919EB /* ListScan.swift */,
+				112F8E832434A023008919EB /* MapContentView.swift */,
+				112F8E852434A038008919EB /* MapView.swift */,
+				112F8E872434A051008919EB /* NonConnectedUserPopUpScan.swift */,
+				112F8E892434A065008919EB /* PartnersList.swift */,
 				112F8E6324349DBB008919EB /* Preview Content */,
+				112F8E8B2434A082008919EB /* QRCode.swift */,
+				112F8E8D2434A099008919EB /* ScanView.swift */,
+				112F8E5D24349DB8008919EB /* SceneDelegate.swift */,
+				112F8E8F2434A0AF008919EB /* TabBar.swift */,
+				112F8E912434A0D1008919EB /* TestAlert.swift */,
 			);
 			path = Deposit_Final;
 			sourceTree = "<group>";
@@ -158,13 +200,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112F8E882434A051008919EB /* NonConnectedUserPopUpScan.swift in Sources */,
+				112F8E8E2434A099008919EB /* ScanView.swift in Sources */,
+				112F8E822434A00F008919EB /* ListScan.swift in Sources */,
+				112F8E922434A0D1008919EB /* TestAlert.swift in Sources */,
 				112F8E7624349E3E008919EB /* AlertViewThree.swift in Sources */,
 				112F8E7424349E34008919EB /* AlertViewTwo.swift in Sources */,
+				112F8E7824349EF2008919EB /* Annotations.swift in Sources */,
+				112F8E8C2434A082008919EB /* QRCode.swift in Sources */,
+				112F8E8A2434A065008919EB /* PartnersList.swift in Sources */,
 				112F8E5C24349DB8008919EB /* AppDelegate.swift in Sources */,
 				112F8E5E24349DB8008919EB /* SceneDelegate.swift in Sources */,
 				112F8E6024349DB8008919EB /* ContentView.swift in Sources */,
+				112F8E862434A038008919EB /* MapView.swift in Sources */,
+				112F8E7C24349F4C008919EB /* ConnectedUserAccount.swift in Sources */,
 				112F8E7024349DE2008919EB /* AlertContentView.swift in Sources */,
+				112F8E7E24349FA6008919EB /* Coordinators.swift in Sources */,
+				112F8E7A24349F24008919EB /* ConexForm.swift in Sources */,
+				112F8E842434A023008919EB /* MapContentView.swift in Sources */,
+				112F8E8024349FD1008919EB /* InscriptionForm.swift in Sources */,
 				112F8E7224349E0D008919EB /* AlertViewOne.swift in Sources */,
+				112F8E902434A0AF008919EB /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
