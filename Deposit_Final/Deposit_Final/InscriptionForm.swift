@@ -10,7 +10,7 @@ import SwiftUI
 
 struct InscriptionForm: View {
     var body: some View {
-        Text("Ceci est la vue du formulaire d'inscription, OK ?")
+        Text("")
             .font(.system(size: 30))
     .multilineTextAlignment(.center)
     }

@@ -12,7 +12,7 @@ struct AlertViewOne: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Avertissement")
+                Text("Notre concept")
             }
             Divider()
             Spacer()

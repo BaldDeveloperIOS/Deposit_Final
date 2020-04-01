@@ -12,7 +12,7 @@ struct AlertViewThree: View {
     
     var body: some View {
         VStack {
-            Text("Avertissement")
+            Text("Notre concept")
                 .foregroundColor(Color.black)
             Divider()
             Spacer()

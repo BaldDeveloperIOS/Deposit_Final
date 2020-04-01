@@ -15,7 +15,7 @@ let storedPassword = "Marseille"
 
 struct ConexForm: View {
     
-    @State  var username: String = ""
+    @State var username: String = ""
     @State var password: String = ""
     @State var authenticationDidFail: Bool = false
     @State var authentificationDidSucceed : Bool = false

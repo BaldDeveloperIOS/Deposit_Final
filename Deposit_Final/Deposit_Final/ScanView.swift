@@ -31,7 +31,7 @@ struct ScanView: View {
                 .sheet(isPresented: $IsActive, content: { ListScan()})
                 
                 VStack{
-                    Spacer().frame(height: 600)
+                    Spacer().frame(height: 430)
                     Text("Je valide mon panier")
                         .font(.headline)
                         .foregroundColor(.white)
@@ -83,7 +83,7 @@ struct CustomActionSheet : View {
                     self.count += 1
                 }, onDecrement: {
                     self.count -= 1
-                })
+                    }) .padding()
             }
             
             Text("\( String(format : "%.2f", self.reductionPrice)) € ")
