@@ -23,6 +23,7 @@ struct AlertViewTwo: View {
                     .frame(width: 300, height: 175.0)
                 .cornerRadius(20.0)
             Text("Scannez les codes barres de vos bouteilles et emballages en plastique à recycler.")
+                .fixedSize(horizontal: false, vertical: true)
                 .multilineTextAlignment(.center)
             }
             
@@ -33,10 +34,11 @@ struct AlertViewTwo: View {
                 .frame(width: 300, height: 175.0)
                 .cornerRadius(20.0)
             Text("Repérez les conteneurs dédiés au plastique disponibles près de chez vous.")
+                .fixedSize(horizontal: false, vertical: true)
                 .multilineTextAlignment(.center)
             }
                 
-            Spacer().frame(height: 150)
+            Spacer().frame(height: 130)
             
             VStack {
             Text("Cumulez des bons d'achat à dépenser chez nos commerçants partenaires !")

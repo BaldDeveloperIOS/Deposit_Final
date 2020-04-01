@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct AlertViewThree: View {
+    
     var body: some View {
         VStack {
             Text("Avertissement")
@@ -24,6 +25,7 @@ struct AlertViewThree: View {
             Spacer()
             
             VStack {
+                
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                 Text("JE CRÉE MON COMPTE MAINTENANT! ")
                     .multilineTextAlignment(.center)
@@ -34,7 +36,7 @@ struct AlertViewThree: View {
                     .cornerRadius(/*@START_MENU_TOKEN@*/19.0/*@END_MENU_TOKEN@*/)
             }
             //
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Button(action: {}) {
                 Text("M'identifier plus tard")
                     .underline()
                     .fontWeight(.light)
@@ -55,6 +57,7 @@ struct AlertViewThree: View {
         }
     }
 }
+
 
 struct AlertViewThree_Previews: PreviewProvider {
     static var previews: some View {

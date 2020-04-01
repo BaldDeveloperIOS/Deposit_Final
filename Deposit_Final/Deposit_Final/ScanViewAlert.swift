@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ScanView: View {
+struct ScanViewAlert: View {
     @State var showPopup = false
     @State private var IsActive: Bool = false
     var body: some View {
@@ -19,7 +19,7 @@ struct ScanView: View {
                     .resizable()
                     .edgesIgnoringSafeArea(.all)
                     .onTapGesture
-                    { self.showPopup.toggle() }
+                    { self.IsActive = true }
                 VStack {
                     Text ("Placez le code-barre dans le repère")
                         .font(.headline)
@@ -28,7 +28,7 @@ struct ScanView: View {
                         .offset(x: 0, y: -36)
                         .padding(.top,400)
                 }
-                .sheet(isPresented: $IsActive, content: { ListScan()})
+                .sheet(isPresented: $IsActive, content: { AlertContentView()})
                 
                 VStack{
                     Spacer().frame(height: 600)
@@ -45,7 +45,7 @@ struct ScanView: View {
                 if showPopup {
                     VStack {
                         Spacer()
-                        CustomActionSheet(show: $showPopup)
+                        CustomActionSheetAlert(show: $showPopup)
                             .offset(y:self.showPopup ? 0 : UIScreen.main.bounds.height)
                             .padding(.top, 100.0)
                     }
@@ -56,14 +56,14 @@ struct ScanView: View {
     }
 }
 
-struct ScanView_Previews: PreviewProvider {
+struct ScanViewAlert_Previews: PreviewProvider {
     static var previews: some View {
-        ScanView()
+        ScanViewAlert()
     }
 }
 
 //
-struct CustomActionSheet : View {
+struct CustomActionSheetAlert : View {
     @State var count = 0
     private var reductionPrice : Double {
         return Double(self.count) * 0.12

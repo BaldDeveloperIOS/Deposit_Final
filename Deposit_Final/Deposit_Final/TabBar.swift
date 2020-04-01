@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct TabBar: View {
-    var isUserConnected: Bool = true
+    var isUserConnected: Bool = false
     var firstConnexion: Bool = false
     
     var body: some View {
         
         TabView {
-        
+            
             if firstConnexion == true {
-                AlertModalSheet()
+                ScanViewAlert()
                 .tabItem {
                         Image(systemName: "camera.fill")
                             .font(.title)
@@ -31,14 +31,6 @@ struct TabBar: View {
                 }
             }
             
-           // TestAlert()
-               // NonConnectedUserPopUpScan()
-                 /*.tabItem {
-                    Image(systemName: "camera.fill")
-                        .font(.title)
-                    Text("Scan")
-            } */
-            
             MapContentView()
                 .tabItem {
                     Image(systemName: "map")
@@ -47,8 +39,7 @@ struct TabBar: View {
             }
             
             if isUserConnected == false {
-               
-                    ContentView()
+                                   ContentView()
                 .tabItem {
                         Image(systemName: "person.crop.circle.fill")
                             .font(.title)

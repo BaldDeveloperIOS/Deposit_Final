@@ -27,7 +27,7 @@ struct AlertContentView: View {
 
 struct AlertContentView_Previews: PreviewProvider {
     static var previews: some View {
-        AlertModalSheet()
+        AlertContentView()
     }
 }
 

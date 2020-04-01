@@ -31,6 +31,7 @@
 		112F8E8E2434A099008919EB /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E8D2434A099008919EB /* ScanView.swift */; };
 		112F8E902434A0AF008919EB /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E8F2434A0AF008919EB /* TabBar.swift */; };
 		112F8E922434A0D1008919EB /* TestAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E912434A0D1008919EB /* TestAlert.swift */; };
+		112F8E942434AC97008919EB /* ScanViewAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F8E932434AC97008919EB /* ScanViewAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		112F8E8D2434A099008919EB /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		112F8E8F2434A0AF008919EB /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		112F8E912434A0D1008919EB /* TestAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlert.swift; sourceTree = "<group>"; };
+		112F8E932434AC97008919EB /* ScanViewAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				112F8E6324349DBB008919EB /* Preview Content */,
 				112F8E8B2434A082008919EB /* QRCode.swift */,
 				112F8E8D2434A099008919EB /* ScanView.swift */,
+				112F8E932434AC97008919EB /* ScanViewAlert.swift */,
 				112F8E5D24349DB8008919EB /* SceneDelegate.swift */,
 				112F8E8F2434A0AF008919EB /* TabBar.swift */,
 				112F8E912434A0D1008919EB /* TestAlert.swift */,
@@ -216,6 +219,7 @@
 				112F8E7C24349F4C008919EB /* ConnectedUserAccount.swift in Sources */,
 				112F8E7024349DE2008919EB /* AlertContentView.swift in Sources */,
 				112F8E7E24349FA6008919EB /* Coordinators.swift in Sources */,
+				112F8E942434AC97008919EB /* ScanViewAlert.swift in Sources */,
 				112F8E7A24349F24008919EB /* ConexForm.swift in Sources */,
 				112F8E842434A023008919EB /* MapContentView.swift in Sources */,
 				112F8E8024349FD1008919EB /* InscriptionForm.swift in Sources */,
