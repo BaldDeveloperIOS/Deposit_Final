@@ -10,7 +10,8 @@ import SwiftUI
 
 struct AlertViewOne: View {
     var body: some View {
-        VStack {
+        ZStack (alignment: .bottom){
+            VStack {
             HStack {
                 Text("Notre concept")
             }
@@ -24,7 +25,29 @@ struct AlertViewOne: View {
             Spacer().frame(height: 40)
             Image("Logo_Trash")
             Spacer()
+                Image("dot1").resizable()
+                    .frame(width: 40, height: 15)
+                .padding()
         }
+            
+           /* HStack (alignment: .center, spacing: 3.0) {
+                Circle()
+                    .frame(width: 8.0, height: 10.0)
+            .foregroundColor(Color.black)
+            
+                Circle()
+                    .foregroundColor(Color.gray)
+                .frame(width: 8.0, height: 10.0)
+            
+                Circle()
+                    .foregroundColor(Color.gray)
+                .frame(width: 8.0, height: 10.0)
+            
+                Spacer()
+            
+        }  .padding() */
+        }
+        
     }
 }
 
@@ -33,5 +56,4 @@ struct AlertViewOne_Previews: PreviewProvider {
         AlertViewOne()
     }
 }
-
 

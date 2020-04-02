@@ -8,30 +8,51 @@
 
 import SwiftUI
 
+
+
+// REGIS BRICOLAGE
+
 struct ConnectedUserAccount: View {
     var body: some View {
         
         VStack {
             
+            
+            
+            /**
+             Titre
+             */
+            
+            
             HStack {
                 
-                Text("Bonjour Romain")
+                Text("Bonjour Romain, ")
                     
                     .font(.system(size: 25))
                     .bold()
                     .foregroundColor(Color("GreenForButtons"))
             } .padding()
             
+            Spacer().frame(height: 35)
+            /**
+             Le bloc rectangle blanc
+             */
             ZStack {
                 
+                /*  RoundedRectangle(cornerRadius: 30)
+                 .frame(width: 380, height: 300)
+                 .foregroundColor(.white)
+                 .shadow(color: .black, radius: 3)*/
+                
+                
                 VStack(spacing: 0){
-                    Text("Votre cagnotte de réduction est de")
+                    Text("Votre cagnotte de réduction est de ")
                         .font(.system(size: 20))
                     
                     
                     HStack {
                         
-                        Text("17.32")
+                        Text("16.40")
                             .font(.system(size: 35))
                             .bold()
                             .foregroundColor(.blue)
@@ -42,12 +63,11 @@ struct ConnectedUserAccount: View {
                             .bold()
                             .foregroundColor(.blue)
                     }
-                    VStack {
-                    Text("Faites scanner ce code-barre")
-                        Text("par votre commerçant")
-                    }
-                        .font(.system(size: 15))
+                    
+                    Text("Faites scanner ce code-barre à votre commerçant")
+                        .multilineTextAlignment(.center)
                         .fixedSize(horizontal: false, vertical: true)
+                        .font(.system(size: 15))
                         .padding([.bottom, .top])
                     
                     
@@ -72,13 +92,15 @@ struct ConnectedUserAccount: View {
                 
                 
                 
-            }
+            } .padding()
             
+            Spacer().frame(height: 35)
             /**
              Caroussel
              */
             SomeCaroussel()
             
+            Spacer().frame(height: 35)
             /**
              Liste de buttons
              */
@@ -90,7 +112,6 @@ struct ConnectedUserAccount: View {
                     Spacer()
                     
                     
-                    
                     Image(systemName: "chevron.right")
                     
                 }
@@ -102,19 +123,17 @@ struct ConnectedUserAccount: View {
                 .font(.headline)
                 .shadow(color: .black, radius: 3)
                 
-                Spacer().frame(height: 15)
+                Spacer().frame(height: 25)
+                
+                
                 
                 Button(action: {}) {
                     Spacer()
                     Text("Mes scans en attente").padding()
                     Spacer()
                     
-                    VStack {
-                        Image(systemName: "1.circle.fill")
-                            .foregroundColor(.red)
-                        
-                    }
-                    
+                    Image(systemName: "1.circle.fill")
+                    .foregroundColor(.red)
                     Image(systemName: "chevron.right")
                     
                 }
@@ -129,40 +148,11 @@ struct ConnectedUserAccount: View {
                 
                 Spacer().frame(height: 15)
                 
-                Button(action: {}) {
-                    Spacer()
-                    Text("Nos partenaires") .padding()
-                    Spacer()
-                    Image(systemName: "chevron.right")
-                    
-                    
-                }
-                .padding()
-                .frame(width: 390, height: 40)
-                .background(Color.white)
-                .foregroundColor(.black)
-                .cornerRadius(15.0)
-                .font(.headline)
-                .shadow(color: .black, radius: 3)
-                
-                Spacer().frame(height: 15)
-                
-                Button(action: {}) {
-                    Spacer()
-                    Text("Qui sommes-nous ?")
-                    Spacer()
-                    Image(systemName: "chevron.right")
-                    
-                }
-                .padding()
-                .frame(width: 390, height: 40)
-                .background(Color.white)
-                .foregroundColor(.black)
-                .cornerRadius(15.0)
-                .font(.headline)
-                .shadow(color: .black, radius: 3)
             }
+            
+            
         }
+        
     }
 }
 
@@ -187,16 +177,13 @@ struct SomeCaroussel: View {
     @State private var index = 0
     
     var body: some View {
-        
         VStack {
-            
             Image(items[index])
                 .resizable()
                 .scaledToFit()
-                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: 140)
+                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: 180)
                 .background(Color.white)
                 .cornerRadius(5)
-                .shadow(color: .black, radius: 3)
                 .padding([.leading, .trailing], 40)
             
             
@@ -215,6 +202,9 @@ struct SomeCaroussel: View {
                     })
                 }
             }
+            
+            
         }
     }
+    
 }

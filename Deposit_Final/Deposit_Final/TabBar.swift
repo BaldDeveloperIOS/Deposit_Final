@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TabBar: View {
-    var isUserConnected: Bool = true
+    var isUserConnected: Bool = false
     var firstConnexion: Bool = false
     
     var body: some View {

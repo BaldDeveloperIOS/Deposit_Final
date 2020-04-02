@@ -54,6 +54,9 @@ struct AlertViewThree: View {
             
             Spacer()
             
+            Image("dot3").resizable()
+                .frame(width: 40, height: 15)
+            .padding()
         }
     }
 }

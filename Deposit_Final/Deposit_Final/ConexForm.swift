@@ -10,8 +10,9 @@ import SwiftUI
 
 let lightGreyColor = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0)
 
-let storedUsername = "Testdeposit"
-let storedPassword = "Marseille"
+let storedUsername = "Romain"
+let storedPassword = "Test"
+
 
 struct ConexForm: View {
     
@@ -19,6 +20,7 @@ struct ConexForm: View {
     @State var password: String = ""
     @State var authenticationDidFail: Bool = false
     @State var authentificationDidSucceed : Bool = false
+    @State var authentificationSucceded: Bool = false
     
     var body: some View {
         ZStack {
@@ -37,6 +39,7 @@ struct ConexForm: View {
                     if self.username == storedUsername && self.password == storedPassword {
                         self.authentificationDidSucceed = true
                         self.authenticationDidFail = false
+                        self.authentificationSucceded = true
                     } else {
                         self.authenticationDidFail = true
                         self.authentificationDidSucceed = false
@@ -46,20 +49,20 @@ struct ConexForm: View {
                 }
             }
             .padding()
-            if authentificationDidSucceed {
-                Text("Connexion réussie ")
+          if authentificationDidSucceed {
+               /* Text("Connexion réussie ")
                     .font(.headline)
                     .frame(width: 250, height: 80)
                     .background(Color.yellow)
                     .cornerRadius(20.0)
                     .animation(Animation.default)
-            }
+            } */
             
         }
-        
+        }
     }
 }
-
+    
 struct ConexForm_Preview: PreviewProvider {
     static var previews: some View {
         ConexForm()

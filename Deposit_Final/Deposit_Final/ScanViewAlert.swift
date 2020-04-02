@@ -31,7 +31,7 @@ struct ScanViewAlert: View {
                 .sheet(isPresented: $IsActive, content: { AlertContentView()})
                 
                 VStack{
-                    Spacer().frame(height: 600)
+                    Spacer().frame(height: 430)
                     Text("Je valide mon panier")
                         .font(.headline)
                         .foregroundColor(.white)

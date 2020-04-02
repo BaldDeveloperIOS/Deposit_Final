@@ -51,6 +51,10 @@ struct AlertViewTwo: View {
             
             Spacer()
             
+            Image("dot2").resizable()
+                .frame(width: 40, height: 15)
+            .padding()
+            
         }
     }
 }
